@@ -149,9 +149,23 @@ ul {
 .section {
   padding: 94px 0;
 }
+
 .text-cards {
   display: flex;
   justify-content: space-between;
+  padding-right: 215px;
+}
+
+.img-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 215px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 215px;
 }
 
 .portfolio-cards {
@@ -225,11 +239,25 @@ ul {
 /*main end*/
 
 /*footer*/
+.footer-logo-text {
+  font-family: "Relaway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.logo-text-web {
+  color: var(--blue);
+}
 
 .logo-text-studio {
   color: var(--white);
 }
-.address_links {
+.address-link-list {
   color: var(--white);
   opacity: 0.6;
   font-size: 14px;
@@ -239,7 +267,16 @@ ul {
   text-align: left;
 }
 
-.footer {
+.address-link-item {
+  margin-bottom: 9px;
+}
+
+.address-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.page-footer {
   background-color: var(--dark-grey);
+  padding: 60px;
 }
 /*footer end*/
