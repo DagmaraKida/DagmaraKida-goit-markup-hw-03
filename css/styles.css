@@ -25,7 +25,6 @@ body {
 .page-header {
   border-bottom: 1px solid #ececec;
   background-color: #fff;
-  padding: 24px;
 }
 
 .logo-text {
@@ -35,7 +34,6 @@ body {
   line-height: 1;
   letter-spacing: 0.03em;
   text-align: left;
-  margin-right: 93px;
 }
 
 .logo-text-web {
@@ -44,7 +42,6 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;
 }
 
 .main-nav-list {
@@ -56,7 +53,6 @@ body {
 }
 
 .main-nav-list li:not(:last-child) {
-  margin-right: 46px;
 }
 
 .contact-link-list {
@@ -66,10 +62,8 @@ body {
   line-height: 1;
   letter-spacing: 0.02em;
   display: flex;
-  margin-left: 364px;
 }
 .contact-link-list li:not(:last-child) {
-  margin-right: 50px;
 }
 
 a,
@@ -87,11 +81,9 @@ a:focus {
 /*main*/
 .hero-section {
   background-color: var(--dark-grey);
-  padding: 200px 452px 280px 452px;
 }
 
 p {
-  margin: 0;
 }
 
 h1 {
@@ -100,12 +92,6 @@ h1 {
   font-weight: 900;
   line-height: 1.16;
   letter-spacing: 0.06em;
-  width: 696px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.hero-section .container {
   text-align: center;
 }
 
@@ -152,27 +138,16 @@ ul {
 
 .text-cards {
   display: flex;
-  justify-content: space-between;
-  padding-right: 215px;
+  justify-content: center;
 }
-
 .img-cards {
   display: flex;
-  justify-content: space-between;
-  padding-right: 215px;
-}
-
-.team-cards {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 215px;
+  justify-content: center;
 }
 
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: centre;
 }
 
 .text-card-text {
@@ -209,7 +184,7 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.06em;
-  text-align: center;
+  align-items: center;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -247,7 +222,6 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .logo-text-web {
@@ -268,15 +242,12 @@ ul {
 }
 
 .address-link-item {
-  margin-bottom: 9px;
 }
 
 .address-list-item:last-child {
-  margin-bottom: 0;
 }
 
 .page-footer {
   background-color: var(--dark-grey);
-  padding: 60px;
 }
 /*footer end*/
