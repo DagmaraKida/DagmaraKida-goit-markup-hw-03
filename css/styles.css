@@ -8,11 +8,6 @@
 }
 
 /* body */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 body {
   background-color: var(--white);
@@ -90,6 +85,10 @@ a:focus {
 /* header end*/
 
 /*main*/
+.hero-section {
+  background-color: var(--dark-grey);
+  padding: 200px 452px 280px 452px;
+}
 
 p {
   margin: 0;
@@ -98,10 +97,16 @@ p {
 h1 {
   color: var(--white);
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.16;
   letter-spacing: 0.06em;
+  width: 696px;
+  margin-bottom: 50px;
   text-align: center;
-  margin: 0;
+}
+
+.hero-section .container {
+  text-align: center;
 }
 
 h2 {
@@ -212,11 +217,6 @@ ul {
   color: var(--white);
   background-color: var(--blue);
   cursor: pointer;
-}
-
-.hero-section {
-  background-color: var(--dark-grey);
-  padding: 200px 0;
 }
 
 .our-team {
