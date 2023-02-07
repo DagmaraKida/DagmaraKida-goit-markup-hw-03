@@ -40,11 +40,41 @@ body {
   line-height: 1;
   letter-spacing: 0.03em;
   text-align: left;
-  text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo-text-web {
   color: var(--blue);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-list {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-list li:not(:last-child) {
+  margin-right: 46px;
+}
+
+.contact-link-list {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  display: flex;
+  margin-left: 364px;
+}
+.contact-link-list li:not(:last-child) {
+  margin-right: 50px;
 }
 
 a,
@@ -57,24 +87,6 @@ a:hover,
 a:focus {
   color: var(--blue);
 }
-
-.main-nav-list {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-.contact-link-list {
-  color: var(--grey);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
 /* header end*/
 
 /*main*/
@@ -204,6 +216,7 @@ ul {
 
 .hero-section {
   background-color: var(--dark-grey);
+  padding: 200px 0;
 }
 
 .our-team {
