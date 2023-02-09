@@ -274,7 +274,6 @@ ul {
   line-height: 1;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .logo-text-web {
@@ -291,6 +290,7 @@ ul {
   font-weight: 400;
   line-height: 1.46;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 .contact {
   opacity: 0.6;
