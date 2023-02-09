@@ -262,14 +262,18 @@ ul {
 /*main end*/
 
 /*footer*/
+.page-footer {
+  background-color: var(--dark-grey);
+  padding: 60px;
+}
 .footer-logo-text {
   font-family: "Relaway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.03em;
-  text-align: left;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .logo-text-web {
@@ -279,23 +283,24 @@ ul {
 .logo-text-studio {
   color: var(--white);
 }
+
 .address-link-list {
   color: var(--white);
-  opacity: 0.6;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.46;
   letter-spacing: 0.03em;
-  text-align: left;
+}
+.contact {
+  opacity: 0.6;
 }
 
 .address-link-item {
+  margin: 0 0 9px 0;
 }
 
 .address-list-item:last-child {
+  margin-bottom: 0px;
 }
 
-.page-footer {
-  background-color: var(--dark-grey);
-}
 /*footer end*/
