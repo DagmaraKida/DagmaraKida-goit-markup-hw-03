@@ -19,6 +19,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* body end */
 
@@ -296,7 +297,7 @@ ul {
 }
 
 .address-link-item {
-  margin: 0 0 9px 0;
+  margin-bottom: 9px;
 }
 
 .address-list-item:last-child {
