@@ -268,7 +268,7 @@ h5 /* .text-card-title */ {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-item figcaption {
+.team-card-caption {
   padding: 30px;
 }
 
@@ -306,7 +306,7 @@ h5 /* .text-card-title */ {
   margin-bottom: 0;
 }
 
-.portfolio-card-item figcaption {
+.portfolio-card-caption {
   padding: 20px 24px;
   margin: 0;
 }
