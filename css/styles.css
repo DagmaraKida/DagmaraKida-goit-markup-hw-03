@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1176px;
   margin: 0 auto;
   /*   padding: 0 15px;
  */
@@ -44,9 +44,9 @@ ul {
   align-items: center;
 }
 
-.page-header.portfolio {
+/* .page-header.portfolio {
   margin-top: -7px;
-}
+} */
 
 /* LOGO STYLE */
 
@@ -300,7 +300,7 @@ h5 /* .text-card-title */ {
 
 .portfolio-cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
